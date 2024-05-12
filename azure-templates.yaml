@@ -1,0 +1,6 @@
+# File: azure-pipelines.yml
+trigger:
+- main
+
+extends:
+  template: templates.yml
