@@ -2,5 +2,11 @@
 trigger:
 - main
 
+resources:
+  repositories:
+    - repository: pipelines-java
+      type: github
+      name: pipelines-java
+
 extends:
   template: templates.yml
